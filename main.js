@@ -31,7 +31,7 @@ const volumeSlider = document.getElementById('volumeSlider');
 
 const speed = 1;
 
-new RGBELoader().load('./textures/background/nebula.hdr', function (texture) {
+new RGBELoader().load('SolarSystem_in_ThreeJS/textures/background/nebula.hdr', function (texture) {
     texture.mapping = THREE.EquirectangularReflectionMapping;
     scene.background = texture;
     scene.environment = texture;
