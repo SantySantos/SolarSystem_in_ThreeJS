@@ -17,11 +17,10 @@
 .backgroundMusic {
     position: absolute;
     z-index: 1;
-    transform: translate(-200%, -200%);
-    transform: translate(14%, 200%);
+    transform: translate(10%, 200%);
 }
 
 #clock {
     font-size: 2em;
-    font-weight: bold;
+    font-weight: bold;  
 }
