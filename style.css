@@ -1,0 +1,27 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    transform: translate(20%, 20%);
+    margin-top: 20px;
+    color: white;
+}
+
+.backgroundMusic {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-200%, -200%);
+    transform: translate(14%, 200%);
+}
+
+#clock {
+    font-size: 2em;
+    font-weight: bold;
+}
