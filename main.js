@@ -240,7 +240,7 @@ const mercuryTexture = new THREE.MeshStandardMaterial({
     emissiveIntensity: 30,
 });
 const mercury = new Planet(
-    2, // 0.383
+    0.383,
     0xbfbfbf,
     200,
     88,
@@ -260,7 +260,7 @@ const venusTexture = new THREE.MeshStandardMaterial({
     emissiveIntensity: 50,
 });
 const venus = new Planet(
-    5,//0.949
+    0.949,
     0xffd9b3,
     270,
     225,
@@ -284,7 +284,7 @@ const earthTexture = new THREE.MeshStandardMaterial({
 });
 
 const earth = new Planet(
-    6,//1,
+    1,
     0x0000ff,
     320,
     365,
@@ -314,7 +314,7 @@ const marsTexture = new THREE.MeshStandardMaterial({
     emissiveIntensity: 10,
 });
 const mars = new Planet(
-    3,//0.532,
+    0.532,
     0xff0000,
     380,
     687,
