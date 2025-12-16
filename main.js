@@ -199,9 +199,9 @@ scene.add(sunLight);
 
 //sun -> its not a planet
 const sunTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/textures/sun/sun-color.jpg'),
+    map: texLoader.load('./textures/sun/sun-color.jpg'),
     emissive: 0xffff00,
-    emissiveMap: texLoader.load('/textures/sun/sun-color.jpg'),
+    emissiveMap: texLoader.load('./textures/sun/sun-color.jpg'),
 });
 
 const sun = new THREE.Mesh(
@@ -234,7 +234,7 @@ const planets = [];
 
 //mercury
 const mercuryTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/textures/mercury/mercury-color.jpg'),
+    map: texLoader.load('./textures/mercury/mercury-color.jpg'),
     emissiveMap: texLoader.load('/textures/mercury/mercury-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 30,
@@ -254,8 +254,8 @@ planets.push(mercury);
 
 //venus
 const venusTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/textures/venus/venus-color.jpg'),
-    emissiveMap: texLoader.load('/textures/venus/venus-color.jpg'),
+    map: texLoader.load('./textures/venus/venus-color.jpg'),
+    emissiveMap: texLoader.load('./textures/venus/venus-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 50,
 });
@@ -277,8 +277,8 @@ planets.push(venus);
 
 //earth
 const earthTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/textures/earth/earth-color.jpg'),
-    emissiveMap: texLoader.load('/textures/earth/earth-color.jpg'),
+    map: texLoader.load('./textures/earth/earth-color.jpg'),
+    emissiveMap: texLoader.load('./textures/earth/earth-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 30,
 });
@@ -308,8 +308,8 @@ scene.add(moon);
 
 //mars
 const marsTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/textures/mars/mars-color.jpg'),
-    emissiveMap: texLoader.load('/textures/mars/mars-color.jpg'),
+    map: texLoader.load('./textures/mars/mars-color.jpg'),
+    emissiveMap: texLoader.load('./textures/mars/mars-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 10,
 });
@@ -352,8 +352,8 @@ function DrawAsteroidRing() {
 
 //jupiter
 const jupiterTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/PRM-Final-Project/textures/jupiter/jupiter-color.jpg'),
-    emissiveMap: texLoader.load('/PRM-Final-Project/textures/jupiter/jupiter-color.jpg'),
+    map: texLoader.load('./textures/jupiter/jupiter-color.jpg'),
+    emissiveMap: texLoader.load('./textures/jupiter/jupiter-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 10,
 });
@@ -372,8 +372,8 @@ planets.push(jupiter);
 
 //saturn
 const saturnTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/PRM-Final-Project//textures/saturn/saturn-color.jpg'),
-    emissiveMap: texLoader.load('/PRM-Final-Project/textures/saturn/saturn-color.jpg'),
+    map: texLoader.load('./textures/saturn/saturn-color.jpg'),
+    emissiveMap: texLoader.load('./textures/saturn/saturn-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 10,
 });
@@ -403,8 +403,8 @@ ring.rotation.y += 50;
 
 //uranus
 const uranusTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/PRM-Final-Project/textures/uranus/uranus-color.jpg'),
-    emissiveMap: texLoader.load('/PRM-Final-Project/textures/uranus/uranus-color.jpg'),
+    map: texLoader.load('./textures/uranus/uranus-color.jpg'),
+    emissiveMap: texLoader.load('./textures/uranus/uranus-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 30,
 });
@@ -423,8 +423,8 @@ planets.push(uranus);
 
 //neptune
 const neptuneTexture = new THREE.MeshStandardMaterial({
-    map: texLoader.load('/PRM-Final-Project/textures/neptune/neptune-color.jpg'),
-    emissiveMap: texLoader.load('/PRM-Final-Project/textures/neptune/neptune-color.jpg'),
+    map: texLoader.load('./textures/neptune/neptune-color.jpg'),
+    emissiveMap: texLoader.load('./textures/neptune/neptune-color.jpg'),
     emissive: 0x222222,
     emissiveIntensity: 30,
 });
